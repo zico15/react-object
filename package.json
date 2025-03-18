@@ -1,0 +1,31 @@
+{
+  "name": "react-object",
+  "description": "react useObject",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "author": "Ezequiel Carlos <zequielzico@gmail.com> (https://github.com/zico15)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zico15/react-object"
+  },
+  "homepage": "https://github.com/zico15/react-object",
+  "bugs": "https://github.com/zico15/react-object/issues",
+  "keywords": [
+    "react",
+    "state management",
+    "object-oriented"
+  ],
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "typescript": "^5.7.3"
+  }
+}
