@@ -1,12 +1,13 @@
 {
-  "name": "react-object",
+  "name": "react-useobject",
   "description": "react useObject",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "type": "module",
   "main": "./index.js",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "build": "tsc"
+    "build": "tsc",
+    "pub": "npm run build && npm publish"
   },
   "author": "Ezequiel Carlos <zequielzico@gmail.com> (https://github.com/zico15)",
   "license": "MIT",
@@ -22,7 +23,7 @@
     "object-oriented"
   ],
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": ">=18.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.8",
